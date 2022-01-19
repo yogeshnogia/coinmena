@@ -9,10 +9,10 @@ link where we can download and assess the work.
 ## Requirements
 
 - First page/section which shows the trending repos:
-![alt text](https://github.com/yogeshnogia/coinmena/master/src/assets/images/trending.jpg?raw=true)
+![alt text](https://github.com/yogeshnogia/coinmena/tree/master/src/assets/images/repo.png?raw=true)
 
 - Second page/section which shows the trending developers
-![alt text](https://github.com/yogeshnogia/coinmena/master/src/assets/images/developers.jpg?raw=true)
+![alt text](https://github.com/yogeshnogia/coinmena/tree/master/src/assets/images/dev.png?raw=true)
 
 - You must follow React best practices and the latest standards when building your
 app.
