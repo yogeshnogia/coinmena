@@ -1,10 +1,33 @@
-# Getting Started with Create React App
+# CoinMENA Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The goal of this project is to use ReactJS capabilities and its paradigms by creating a simple
+Github trending page clone.
+The fully functional code must be uploaded to GitHub. The work must be yours, no other person
+should be directly or indirectly involved. After you complete the work please provide us the GitHub
+link where we can download and assess the work.
 
-## Available Scripts
+## Requirements
 
-In the project directory, you can run:
+- First page/section which shows the trending repos:
+![alt text](https://github.com/yogeshnogia/coinmena/master/src/assets/images/trending.jpg?raw=true)
+
+- Second page/section which shows the trending developers
+![alt text](https://github.com/yogeshnogia/coinmena/master/src/assets/images/developers.jpg?raw=true)
+
+- You must follow React best practices and the latest standards when building your
+app.
+- You must use react-router
+- The implementation must be as close as possible to the provided designs.
+- Feel free to use any css library if needed.
+- Using typescript is a plus.
+- Using react-query is a plus.
+
+## Resources
+- [https://gh-trending-api.herokuapp.com/repositories](https://gh-trending-api.herokuapp.com/repositories) (to list the trending repos)
+- [https://gh-trending-api.herokuapp.com/developers](https://gh-trending-api.herokuapp.com/developers) (to list the trending developers)
+
+
+## Run & Test this Project
 
 ### `npm start`
 

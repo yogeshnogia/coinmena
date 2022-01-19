@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+
+import './assets/scss/style.scss';
+import Repositories from './components/repositories/Repositories';
+import Developers from './components/developers/Developers';
+import NotFound from './components/notfound/NotFound';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container-fluid">
+        <div className="row">
+          {/*  component={Repos} */}
+          <Router>
+            <Routes>
+              <Route path="/repositories" element={<Repositories title="Trending"
+                description="See what the GitHub community is most excited Today." />} />
+              <Route path="/developers" element={<Developers title="Trending"
+                description="These are the developers building the hot tools today." />} />
+              <Route path="*" element={<NotFound/>} />
+              {/* <Navigate to="/repositories" /> */}
+            </Routes>
+          </Router>
+        </div>
+      </div>
+    </>
   );
 }
 
